@@ -1,7 +1,10 @@
 
 ## a live bookstore app with ionic 
-
-
+steps:  
+ 1. git clone
+ 2. cd ionic-bookstore
+ 3. npm install  or  yarn install
+ 4. npm start  or  yarn start
 
 
 ----
@@ -13,6 +16,9 @@
 这次我们就搭建一个图书 App (还能听歌看电影....), 实现了一些基本的功能， 搜索图书类型，查看图书详情，搜索图书标签，查看图书笔记等。当然还能听歌搜个电影之类的。。。。。
 
 先上几张截图
+
+
+![home](https://github.com/ManInBoat/Switching-to-2017/blob/master/imgs/home.gif)
 
 
 ---
@@ -65,3 +71,6 @@ function Books($resource) {
 定义好 Api， 模板， 路由后，就可以写页面了。 我们所有请求的数据都在控制器文件中定义，然后在 html 文件中引用就可以了。
 
 基本结构就是这样，更加详细的内容可以查看源码。
+
+![play](https://github.com/ManInBoat/Switching-to-2017/blob/master/imgs/play.gif)
+![safari](https://github.com/ManInBoat/Switching-to-2017/blob/master/imgs/safari.gif)
